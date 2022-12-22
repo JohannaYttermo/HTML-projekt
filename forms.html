@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Formulär</h1>
+
+    <form>
+        <fieldset><legend>Personlig information:</legend>
+        <label for="name">Ditt namn:</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Skriv in ditt namn här..">
+        <br><br>
+        <label for="email">Din e-post:</label>
+        <br><input type="email" name="e-mail" id="e-mail" placeholder="Ange din epost.." required>
+       
+       <br><br>
+        <label for="customer-status">Kundstatus:</label> 
+
+    <select name="customer-status" id="customer-status">
+        <option value="" disabled selected>Ange din status</option>
+        <option value="is-customer">Ja, är kund</option>
+        <option value=""not-customer">Nej, jag är inte kund</option>
+
+        </select>
+        </fieldset>
+        <br><br><br>
+
+        <input type="checkbox" name="car1" id="volvo" value="volvo">
+        <label for="volvo">Jag kör Volvo🚗 </label>
+        <br>
+        <input type="checkbox" name="car2" id="saab" value="saab">
+        <label for="saab">Jag kör Saab 🚘</label>
+        <br>
+        <input type="checkbox" name="car3" id="audi" value="audi">
+        <label for="audi">Jag kör Audi 🚙</label>
+
+        <br><br>
+
+        <input type="radio" name="car" id="bmw" value="bmw">
+        <label for="bmw">Jag kör BMW</label>
+        <br>
+        <input type="radio" name="car" id="opel" value="opel">
+        <label for="opel">Jag kör Opel</label>
+        <br>
+        <input type="radio" name="car" id="cia" value="cia">
+        <label for="cia">Jag kör Cia</label>
+        
+        <br><br>
+
+        <input type="date" name="date" id="date">
+        <br><br>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <input type="range" name="range" id="range">
+        <br><br>
+        <input type="password" name="" id="">
+        <label for="password">Skriv ditt lösenord här</label>
+        <br><br>
+
+
+        <label for="message">Meddelande:</label>
+        <br>
+        <textarea name="message" cols"30" rows="10" placeholder="Skriv ditt meddelande här.."></textarea>
+        <br><br>
+        <input type="submit" value="Skicka meddelande">
+    </form>
+
+
+</body>
+</html>
